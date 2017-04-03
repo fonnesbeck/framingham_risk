@@ -13,7 +13,7 @@ Install via pip:
 
 Here are sample calculations using the `frs` function:
 
-```
+```python
 >>> from frs import frs
 >>> frs(gender='F', age=35, bmi=24.3, sbp=122, ht_treat=False, smk=True, dia=False)
 0.029352227213368165
