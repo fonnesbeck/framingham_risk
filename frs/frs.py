@@ -62,9 +62,9 @@ def frs(gender, age, bmi, sbp, ht_treat, smk, dia):
     ht_treat : bool or int
         Treatment for hypertension (True or False)
     smk : bool or int
-        Subject is smoker
+        Subject is smoker (True or False)
     dia : bool or int
-        Subject has diabetes
+        Subject has diabetes (True or False)
     """
     ht = bool(ht_treat)
     X = np.array([np.log(age), np.log(bmi), np.log(sbp)*(1-ht), np.log(sbp)*ht, bool(smk), bool(dia)])
