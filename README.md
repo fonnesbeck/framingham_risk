@@ -1,6 +1,6 @@
 # framingham_risk
 
-Functions for calculating the Framingham Risk Score (FRS) for 10-year risk
+Functions for calculating the Framingham Risk Score (FRS) for 10-year risk (D’Agostino *et al.* 2008).
 
 
 ## Installation
@@ -21,3 +21,8 @@ Here are sample calculations using the `frs` function:
 >>> frs(*X)
 0.0838895
 ```
+
+## References
+
+
+1. Ralph B. D’Agostino, Ramachandran S. Vasan, Michael J. Pencina, Philip A. Wolf, Mark Cobain, Joseph M. Massaro and William B. Kannel. **General Cardiovascular Risk Profile for Use in Primary Care**. *Circulation*. 2008;117:743-753, originally published February 11, 2008  https://doi.org/10.1161/CIRCULATIONAHA.107.699579
