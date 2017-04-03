@@ -1,6 +1,6 @@
 # framingham_risk
 
-Functions for calculating the Framingham Risk Score (FRS) for 10-year risk (D’Agostino *et al.* 2008).
+Functions for calculating the Framingham Risk Score (FRS) for 10-year cardiovascular risk (D’Agostino *et al.* 2008).
 
 
 ## Installation
