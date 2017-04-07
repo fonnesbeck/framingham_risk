@@ -15,11 +15,13 @@ Here are sample calculations using the `frs` function:
 
 ```python
 >>> from frs import frs
->>> frs(gender='F', age=35, bmi=24.3, sbp=122, ht_treat=False, smk=True, dia=False)
+>>> frs(gender='F', time=10, age=35, bmi=24.3, sbp=122, ht_treat=False, smk=True, dia=False)
 0.029352227213368165
->>> X = ['m', 30, 22.5, 125.0, True, True, True]
+>>> X = ['m', 10, 30, 22.5, 125.0, True, True, True]
 >>> frs(*X)
 0.0838895
+>>> frs(*X, ci=True)
+(0.083742615074675064, (0.0024752684495994493, 0.95489591340204327))
 ```
 
 ## References
