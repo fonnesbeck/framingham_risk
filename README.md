@@ -20,8 +20,6 @@ Here are sample calculations using the `frs` function:
 >>> X = ['m', 10, 30, 22.5, 125.0, True, True, True]
 >>> frs(*X)
 0.0838895
->>> frs(*X, ci=True)
-(0.083742615074675064, (0.0024752684495994493, 0.95489591340204327))
 ```
 
 ## References
