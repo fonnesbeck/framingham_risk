@@ -20,6 +20,10 @@ Here are sample calculations using the `frs` function:
 >>> X = ['m', 10, 30, 22.5, 125.0, True, True, True]
 >>> frs(*X)
 0.0838895
+>>> years = np.arange(10)+1
+>>> frs(gender='F', time=years, age=35, bmi=24.3, sbp=122, ht_trea, t=False, smk=True, dia=False)
+array([ 0.00123038,  0.00502448,  0.00700481,  0.01045945,  0.01222148,
+        0.01525839,  0.01903776,  0.02146276,  0.02506614,  0.02935223])
 ```
 
 ## References
